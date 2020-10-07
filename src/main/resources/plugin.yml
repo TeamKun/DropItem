@@ -1,0 +1,15 @@
+name: DropItem
+version: ${project.version}
+main: net.teamfruit.dropitem.DropItem
+api-version: 1.15
+authors: [Kamesuta]
+
+#commands:
+#  itemtest:
+#    description: アイテムをテストする
+#    usage: /itemtest
+#    permission: dropitem
+permissions:
+  dropitem:
+    description: You can get item by attacking
+    default: true

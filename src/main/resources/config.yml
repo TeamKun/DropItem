@@ -1,0 +1,14 @@
+players:
+  Dev:
+    chance: 1
+    sound: minecraft:entity.chicken.hurt
+    exp: 1
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2230
+      type: COOKED_CHICKEN
+      amount: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eTest
